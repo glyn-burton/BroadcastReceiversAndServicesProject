@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jojo"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/rvStand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stand"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/rvCatchphrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catchphrase"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/rvPart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Part"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+
+
+
+</LinearLayout>
